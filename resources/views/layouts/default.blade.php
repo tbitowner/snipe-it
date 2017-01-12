@@ -276,6 +276,8 @@
                </li>
                @endcan
 
+               @include('partials/nav/messages._index')
+
 
                <!-- User Account: style can be found in dropdown.less -->
                <li class="dropdown user user-menu">
