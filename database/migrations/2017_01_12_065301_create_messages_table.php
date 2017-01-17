@@ -14,7 +14,6 @@ class CreateMessagesTable extends Migration
     public function up()
     {
         Schema::create('messages', function (Blueprint $table) {
-            /* We'll specify MessageID to avoid issues with joins */
             $table->increments('MessageID');
             $table->integer('MessageTypeID')->unsigned();
             $table->integer('createdby')->unsigned();
